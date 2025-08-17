@@ -4,5 +4,7 @@ dist/Duplicate[[:space:]]File[[:space:]]Finder-1.0.0.AppImage filter=lfs diff=lf
 dist/linux-unpacked/duplicate-file-finder filter=lfs diff=lfs merge=lfs -text
 dist/*.AppImage filter=lfs diff=lfs merge=lfs -text
 dist/linux-unpacked/* filter=lfs diff=lfs merge=lfs -text
+*.AppImage filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
 dist/Duplicate_File_Finder-1.0.0.AppImage filter=lfs diff=lfs merge=lfs -text
 dist/linux-unpacked/** filter=lfs diff=lfs merge=lfs -text
