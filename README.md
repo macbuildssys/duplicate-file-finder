@@ -18,7 +18,7 @@ Installation
 
 # Clone the repository
 
-git clone https://github.com/your-username/duplicate-file-finder.git
+git clone https://github.com/macbuildssys/duplicate-file-finder.git
 
 cd duplicate-file-finder
 
