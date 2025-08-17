@@ -137,8 +137,7 @@ Contributions are welcome! Please feel free to make a Pull Request. For major ch
 📋 Roadmap
 
 - A much improved version built in a memory-safe language (Rust).
-- 
--  Add file preview functionality
+-  Add file preview functionality.
 
 
 📄 License
@@ -146,9 +145,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 🙏 Acknowledgments
 
-Built with Electron
+Built with Electron.
 
-Packaged with electron-builder
+Packaged with electron-builder.
 
 📞 Support
 
