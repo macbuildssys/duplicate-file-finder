@@ -32,7 +32,6 @@ app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) createWindow();
 });
 
-// Helper function for directory reading
 async function readDirectoryRecursive(dirPath) {
   try {
     const files = await fs.readdir(dirPath, { withFileTypes: true });
