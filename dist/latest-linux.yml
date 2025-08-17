@@ -1,0 +1,9 @@
+version: 1.0.0
+files:
+  - url: Duplicate-File-Finder-1.0.0.AppImage
+    sha512: vyE+ezHDnN/Cbh7KflZvHsQbFgEMqf9TPGzm7G1GdaC/Eh5nvLpo+LHjw+6vNL7i+Z7fi2mF+XYGWn01Pf4KUg==
+    size: 104090389
+    blockMapSize: 109353
+path: Duplicate-File-Finder-1.0.0.AppImage
+sha512: vyE+ezHDnN/Cbh7KflZvHsQbFgEMqf9TPGzm7G1GdaC/Eh5nvLpo+LHjw+6vNL7i+Z7fi2mF+XYGWn01Pf4KUg==
+releaseDate: '2025-08-17T14:16:58.975Z'
