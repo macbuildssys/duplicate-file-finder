@@ -66,8 +66,10 @@ npm run dist:win - Build Windows installer
 npm run dist:mac - Build macOS DMG
 
 Building from Source
+
 To create distributable packages:
-bash# Build for current platform
+
+# Build for current platform
 npm run dist
 
 # Build for specific platforms
