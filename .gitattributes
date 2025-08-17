@@ -1,3 +1,4 @@
 node_modules/electron/dist/electron filter=lfs diff=lfs merge=lfs -text
+dist/* filter=lfs diff=lfs merge=lfs -text
 dist/Duplicate_File_Finder-1.0.0.AppImage filter=lfs diff=lfs merge=lfs -text
 dist/linux-unpacked/** filter=lfs diff=lfs merge=lfs -text
