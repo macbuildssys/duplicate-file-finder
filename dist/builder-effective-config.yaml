@@ -1,15 +1,3 @@
-directories:
-  output: dist
-  buildResources: build
-appId: com.mac.duplicatefilefinder
-productName: Duplicate File Finder
-files:
-  - filter:
-      - '**/*'
-mac:
-  category: public.app-category.utilities
-win:
-  target: nsis
-linux:
-  target: AppImage
-electronVersion: 28.3.3
+version https://git-lfs.github.com/spec/v1
+oid sha256:6829bcd04729add78d02f1ea92692152ac5e6ffb98d6114a68d637f5ed65a291
+size 273

@@ -1,17 +1,3 @@
-x64:
-  firstOrDefaultFilePatterns:
-    - '**/*'
-    - '!**/node_modules/**'
-    - '!build{,/**/*}'
-    - '!dist{,/**/*}'
-    - package.json
-    - '!**/*.{iml,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,suo,xproj,cc,d.ts,mk,a,o,obj,forge-meta,pdb}'
-    - '!**/._*'
-    - '!**/electron-builder.{yaml,yml,json,json5,toml,ts}'
-    - '!**/{.git,.hg,.svn,CVS,RCS,SCCS,__pycache__,.DS_Store,thumbs.db,.gitignore,.gitkeep,.gitattributes,.npmignore,.idea,.vs,.flowconfig,.jshintrc,.eslintrc,.circleci,.yarn-integrity,.yarn-metadata.json,yarn-error.log,yarn.lock,package-lock.json,npm-debug.log,pnpm-lock.yaml,appveyor.yml,.travis.yml,circle.yml,.nyc_output,.husky,.github,electron-builder.env}'
-    - '!.yarn{,/**/*}'
-    - '!.editorconfig'
-    - '!.yarnrc.yml'
-  nodeModuleFilePatterns:
-    - '**/*'
-    - '**/*'
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6fbdc542a3ed45b4f80099301f844237264ff596726ecc3d636251e0b5a5019
+size 799
