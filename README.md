@@ -16,8 +16,10 @@ npm or yarn package manager
 
 Installation
 
-Clone the repository
-bashgit clone https://github.com/your-username/duplicate-file-finder.git
+# Clone the repository
+
+git clone https://github.com/your-username/duplicate-file-finder.git
+
 cd duplicate-file-finder
 
 Install dependencies
