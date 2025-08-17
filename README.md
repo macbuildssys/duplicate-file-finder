@@ -12,7 +12,6 @@ Batch Operations: Select and manage multiple duplicates at once
 🚀 Quick Start
 Prerequisites
 
-Node.js 16 or higher
 npm or yarn package manager
 
 Installation
@@ -22,14 +21,17 @@ bashgit clone https://github.com/your-username/duplicate-file-finder.git
 cd duplicate-file-finder
 
 Install dependencies
-bashnpm install
+
+npm install
 
 Start the application
-bashnpm start
+
+npm start
 
 
 📦 Downloads
 Pre-built Releases
+
 Download the latest release for your platform from the Releases page.
 
 Linux: Duplicate-File-Finder-1.0.0.AppImage
@@ -37,19 +39,28 @@ Linux: Duplicate-File-Finder-1.0.0.AppImage
 Running the AppImage (Linux)
 
 Download the AppImage file
+
 Make it executable:
-bashchmod +x Duplicate-File-Finder-1.0.0.AppImage
+
+chmod +x Duplicate-File-Finder-1.0.0.AppImage
 
 Run the application:
-bash./Duplicate-File-Finder-1.0.0.AppImage
+
+./Duplicate-File-Finder-1.0.0.AppImage
 
 
 🛠️ Development
+
 npm start - Start the application in development mode
+
 npm run build - Build the application for production
+
 npm run dist - Create distributable packages for all platforms
+
 npm run dist:linux - Build Linux AppImage
+
 npm run dist:win - Build Windows installer
+
 npm run dist:mac - Build macOS DMG
 
 Building from Source
@@ -58,19 +69,28 @@ bash# Build for current platform
 npm run dist
 
 # Build for specific platforms
+
 npm run dist:linux    # Creates AppImage
+
 npm run dist:win      # Creates .exe installer
+
 npm run dist:mac      # Creates .dmg file
+
 Built packages will be available in the dist/ directory.
 
 🐧 Linux-Specific Setup
+
 Common Issues and Solutions
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
 Missing FUSE Library
+
 If you see this error:
 dlopen(): error loading libfuse.so.2
+
 Solution: Install FUSE library
-bash# Ubuntu/Debian
+
+# Ubuntu/Debian
 sudo apt install libfuse2
 
 # Fedora/CentOS/RHEL
@@ -79,28 +99,42 @@ sudo dnf install fuse-libs
 # Arch Linux
 sudo pacman -S fuse2
 
-SUID Sandbox Issues
-If you encounter sandbox errors:
-FATAL:setuid_sandbox_host.cc: The SUID sandbox helper binary was found, but is not configured correctly.
-Quick workaround (less secure):
-bash./Duplicate-File-Finder-1.0.0.AppImage --no-sandbox
-Proper solution (recommended):
-bash# Extract AppImage temporarily
-./Duplicate-File-Finder-1.0.0.AppImage --appimage-extract
-# Fix permissions
-sudo chown root:root squashfs-root/chrome-sandbox
-sudo chmod 4755 squashfs-root/chrome-sandbox
-# Run from extracted location
-./squashfs-root/AppRun
-🤝 Contributing
-Contributions are welcome! Please feel free to make a Pull Request. For major changes, go for it!
+# SUID Sandbox Issues
 
+If you encounter sandbox errors:
+
+FATAL:setuid_sandbox_host.cc: The SUID sandbox helper binary was found, but is not configured correctly.
+
+Quick workaround (less secure):
+
+./Duplicate-File-Finder-1.0.0.AppImage --no-sandbox
+
+Proper solution (recommended):
+
+# Extract AppImage temporarily
+
+./Duplicate-File-Finder-1.0.0.AppImage --appimage-extract
+
+# Fix permissions
+
+sudo chown root:root squashfs-root/chrome-sandbox
+
+sudo chmod 4755 squashfs-root/chrome-sandbox
+
+# Run from extracted location
+
+./squashfs-root/AppRun
+
+🤝 Contributing
+
+Contributions are welcome! Please feel free to make a Pull Request. For major changes, go for it!
 
 
 📋 Roadmap
 
- A much improved version built in a memory-safe language (Rust).
- Add file preview functionality
+- A much improved version built in a memory-safe language (Rust).
+- 
+-  Add file preview functionality
 
 
 📄 License
@@ -109,10 +143,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 🙏 Acknowledgments
 
 Built with Electron
-Icons from Feather Icons
+
 Packaged with electron-builder
 
 📞 Support
 
+
 🐛 Issues: GitHub Issues
+
 💬 Discussions: GitHub Discussions
