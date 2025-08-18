@@ -14,7 +14,7 @@ Prerequisites
 
 npm or yarn package manager
 
-Installation
+# Installation
 
 # Clone the repository
 
@@ -31,12 +31,12 @@ Start the application
 npm start
 
 
-📦 Downloads
+# 📦 Downloads
 Pre-built Releases
 
 Download the latest release for your platform from the Releases page.
 
-Linux: Duplicate-File-Finder-1.0.0.AppImage
+Linux: Duplicate\ File\ Finder-1.0.0.AppImage
 
 Running the AppImage (Linux)
 
@@ -51,7 +51,7 @@ Run the application:
 ./Duplicate\ File\ Finder-1.0.0.AppImage
 
 
-🛠️ Development
+# 🛠️ Development
 
 npm start - Start the application in development mode
 
@@ -82,7 +82,7 @@ npm run dist:mac      # Creates .dmg file
 
 Built packages will be available in the dist/ directory.
 
-🐧 Linux-Specific Setup
+# 🐧 Linux-Specific Setup
 
 Common Issues and Solutions
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
