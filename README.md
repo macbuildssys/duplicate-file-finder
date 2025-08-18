@@ -111,7 +111,7 @@ FATAL:setuid_sandbox_host.cc: The SUID sandbox helper binary was found, but is n
 
 Quick workaround (less secure):
 
-./Duplicate-File-Finder-1.0.0.AppImage --no-sandbox
+./Duplicate\ File\ Finder-1.0.0.AppImage --no-sandbox
 
 Proper solution (recommended):
 
