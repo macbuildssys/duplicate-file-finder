@@ -44,11 +44,11 @@ Download the AppImage file
 
 Make it executable:
 
-chmod +x Duplicate-File-Finder-1.0.0.AppImage
+chmod +x Duplicate\ File\ Finder-1.0.0.AppImage 
 
 Run the application:
 
-./Duplicate-File-Finder-1.0.0.AppImage
+./Duplicate\ File\ Finder-1.0.0.AppImage
 
 
 🛠️ Development
