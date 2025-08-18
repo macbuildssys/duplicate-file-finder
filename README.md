@@ -42,11 +42,11 @@ Running the AppImage (Linux)
 
 Download the AppImage file
 
-Make it executable:
+1. Make it executable:
 
 chmod +x Duplicate\ File\ Finder-1.0.0.AppImage 
 
-Run the application:
+2. Run the application:
 
 ./Duplicate\ File\ Finder-1.0.0.AppImage
 
